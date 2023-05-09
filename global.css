@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+  scroll-behavior: auto;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+  --font-noto-sans: "Noto Sans";
+  --font-istok-web: "Istok Web";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-26xl: 45px;
+  --font-size-7xl: 26px;
+  --font-size-14xl: 33px;
+  --font-size-4xl: 23px;
+
+  /* Colors */
+  --color-gray-100: #929191;
+  --color-gray-200: #101010;
+  --color-darkred: #8f0a0b;
+  --color-white: #fff;
+}

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hehe.css">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;1,400&display=swap"
@@ -35,7 +36,7 @@
         <img
           class="logo-icon"
           alt=""
-          src="./public/logo@2x.png"
+          src="public/logo@2x.png"
           data-scroll-to="logoImage"
         />
 
@@ -45,15 +46,53 @@
           <div class="home" id="contactText">Contact</div>
         </div>
       </div>
+      <div class="container">
+        <p>var __copyProps = <span class="auto-type"> (to, from, except, desc) => </span></p>
+      </div>
+
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed(".auto-type", {
+          strings: ["(to, from, except, desc) =>", "(to, from, except, desc) =>", "(to, from, except, desc) =>"],
+          typeSpeed: 150,
+          backspeed: 150,
+          loop: true,
+        });
+      </script>
+    
       <div class="hero-section-wrapper">
         <div class="hero-section">
           <div class="rectangle-parent">
-            <img
-              class="rectangle-icon"
-              alt=""
-              src="./public/rectangle@2x.png"
-            />
-
+           <pre class="code">
+        <code>
+          var __commonJS = (cb, mod) =>
+          function __require2() {
+            return (
+              mod ||
+                (0, cb[__getOwnPropNames(cb)[0]])(
+                  (mod = { exports: {} }).exports,
+                  mod
+                ),
+              mod.exports
+            );
+          };
+        </code>
+    </pre>
+    <pre class="code1">
+      <code>
+        
+          if ((from && typeof from === "object") || typeof from === "function") {
+            for (let key of __getOwnPropNames(from))
+              if (!__hasOwnProp.call(to, key) && key ! == except)
+                __defProp(to, key, {
+                  get: () => from[key], && key !== except)
+                  enumerable:
+                    !(desc = __getOwnPropDesc(from, key)) || desc.enumerable,
+                });
+      </code>
+    </pre>
+          <script src="highlight.min.js"></script>
+          <script>hljs.highlightAll();</script>
             <div class="hey-there">Hey there</div>
             <div class="im-a-student-container">
               <span>I’m a </span>
@@ -69,7 +108,7 @@
         <img
           class="img-20230508-171148-1-icon"
           alt=""
-          src="./public/img-20230508-171148-1@2x.png"
+          src="public/img-20230508-171148-1@2x.png"
         />
 
         <div class="vishal-rai">Vishal Rai</div>
